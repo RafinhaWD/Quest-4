@@ -1,6 +1,5 @@
 import java.util.*;
 
-// The main method must be in a class named "Main".
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +11,7 @@ class Main {
             fatorial *= i;
         }
         
-        System.out.println("O fatorial de " + numero + " é: " + fatorial);
-        scanner.close();
+  System.out.println("O fatorial de " + numero + " é: " + fatorial);
+ scanner.close();
     }
 }
